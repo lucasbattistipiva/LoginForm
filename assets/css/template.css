@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #1f86f4;
+    color: #1a78dc;
+}
+
+.title-login .login-name{
+    padding: 10px;
+}
+
+.title-login .login-bar{
+    height: 2px;
+    background-color: #1a78dc;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main{
+    border: 1px solid #555555;
+    width: 100%;
+    background-color: white;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+form input {
+    margin-top: 30px;
+}
+
+form p{
+    color: #222;
+    font-size: 15px;
+}
+
+form p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+form p a:hover{
+    color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border:0;
+    border-bottom: 1px solid #555555;
+    margin: 10px;
+    text-align: center;
+    transition: padding-left 0.5s ease-in-out;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    text-align: end;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: 0;
+    text-align:left;
+    padding: 15px;
+    border-bottom: 2px solid #555;
+}
+
+input:focus::placeholder{
+    text-align: left;
+}
+
+.checkbox-terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    gap: 8px;
+}
+
+.checkbox-terms label{
+    font-size: 13px;
+    color: #222;
+    cursor: pointer;
+}
+
+.checkbox-terms #terms{
+    width: auto;
+    cursor: pointer;
+    margin: 0;
+}
+ 
+.checkbox-terms label a{
+    text-decoration: none;
+    color: #222;
+}
+
+input[type="submit"] {
+    width: 100%;
+    min-width: 50px;
+    height: 100%;
+    min-height: 30px;
+    border-radius: 8px;
+    border: 1px solid #5c5c5c;
+    background-color: #1a78dc;
+    color: #FFFFFF;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #1871cf;
+}
+
+.priority{
+    color: #f00;
+}
