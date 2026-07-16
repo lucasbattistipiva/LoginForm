@@ -75,7 +75,6 @@ Este projeto foi criado com o objetivo de praticar:
 ## 📌 Melhorias futuras
 
 - [ ] Máscara para CPF
-- [ ] Mostrar/Ocultar senha
 - [ ] Validação com JavaScript
 - [ ] Integração com banco de dados
 - [ ] Sistema de Login e Cadastro
